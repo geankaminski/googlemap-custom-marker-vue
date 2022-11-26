@@ -1,7 +1,7 @@
 {
   "name": "googlemap-custom-marker-vue",
-  "version": "1.0.0",
-  "description": "vue google map custom marker component allowing display custom content on google map using @fawmi/vue-google-maps",
+  "version": "1.1.0",
+  "description": "Vue google map custom marker component allowing display custom content on google map using @fawmi/vue-google-maps. Based on eregnier/vue2-gmap-custom-marker.",
   "main": "gmap-custom-marker.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
