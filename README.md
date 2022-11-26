@@ -1,6 +1,6 @@
 # googlemap-custom-marker-vue
 
-This component makes it simple to display some custom Vue reactive components on a google map.
+This component makes it simple to display some custom Vue reactive components on a Google map.
 
 ![custom markers on @fawmi/vue-google-maps](custom-marker.png)
 
@@ -25,12 +25,12 @@ import GmapCustomMarker from 'googlemap-custom-marker-vue';
 Use the custom marker inside the map component. Add HTML or other Vue components inside the custom marker to be rendered on the map.
 
 ```vue
-<GmapMap>
+<GMapMap>
   <GmapCustomMarker :marker="marker">
     <img src="http://lorempixel.com/800/600/nature/" />
     <my-component></my-component>
   </GmapCustomMarker>
-</GmapMap>
+</GMapMap>
 
 <script>
 export default = {
@@ -50,7 +50,7 @@ export default = {
 Use the `@click` event with the `.native` modifier to bind a function to the clicking of the custom marker.
 
 ```vue
-<GmapMap>
+<GMapMap>
   <GmapCustomMarker
     :marker="{ lat: 50.60229509638775, lng: 3.0247059387528408 }"
     @click.native="someFunction"
@@ -58,7 +58,7 @@ Use the `@click` event with the `.native` modifier to bind a function to the cli
     <img src="http://lorempixel.com/800/600/nature/" />
     <my-component></my-component>
   </GmapCustomMarker>
-</GmapMap>
+</GMapMap>
 ```
 
 Specify the alignment of the marker with the `alignment` prop. Accepts 13 values: `top`, `bottom`, `left`, `right`, `center`, `topleft` | `lefttop`, `topright` | `righttop`, `bottomleft` | `leftbottom`, `bottomright` | `rightbottom`. Defines the alignment of the marker relative to the lat/lng specified, e.g. `bottomright` - the marker will be below and on the right of the location.
