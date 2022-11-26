@@ -1,0 +1,23 @@
+{
+  "name": "gmap-custom-marker-vue",
+  "version": "1.0.0",
+  "description": "vue google map custom marker component allowing display custom html content on google map using @fawmi/vue-google-maps",
+  "main": "gmap-custom-marker.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "js",
+    "google",
+    "map",
+    "marker",
+    "custom"
+  ],
+  "author": "Eric Régnier | Gean Kaminski",
+  "license": "MIT",
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.67",
+    "vue": "^2.x"
+  }
+}
